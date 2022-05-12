@@ -16,17 +16,12 @@ $(window).scroll(function() {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-
   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
   if ($navbarBurgers.length > 0) {
-
     $navbarBurgers.forEach( el => {
       el.addEventListener('click', () => {
-
         const target = el.dataset.target;
         const $target = document.getElementById(target);
-
         el.classList.toggle('is-active');
         el.classList.toggle('bg-color');
         $target.classList.toggle('is-active');
@@ -35,3 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+
+function copyToClipboard(elementId) {
+  var aux = document.createElement("input");
+  aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+  document.body.appendChild(aux);
+  aux.select();
+  document.execCommand("copy");
+  document.body.removeChild(aux);
+}
