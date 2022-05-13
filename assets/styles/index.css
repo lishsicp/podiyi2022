@@ -62,6 +62,30 @@ main {
     color: #d1d1d1 !important;
 }
 
+.bxs-envelope {
+    font-size: 3rem;
+}
+
+.icon__footer {
+    transition: .1s;
+}
+
+.icon__footer:hover {
+    transform: scale(1.06);
+}
+
+@media (max-width:819px) {
+    .mail {
+        display: none;
+    }
+}
+
+@media (min-width: 820px) {
+    .mail__icons {
+        display: none;
+    }
+}
+
 @media (max-width: 374px){
     .social-share__items {
         display: flex;
