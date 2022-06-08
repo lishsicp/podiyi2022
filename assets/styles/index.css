@@ -103,11 +103,11 @@ main {
 }
   
 @media (max-width:819px) {
-    .mail {
+    .mail, .desktop__ebook {
     display: none;
 }
 }@media (min-width:820px) {
-    .mail__icons {
+    .mail__icons, mobile__ebook {
     display: none;
 }
 .mail:active, .mail:hover {
