@@ -103,13 +103,19 @@ main {
 }
   
 @media (max-width:819px) {
-    .mail, .desktop__ebook {
+.mail {
     display: none;
+}
+.desktop__ebook {
+      display: none;
 }
 }@media (min-width:820px) {
-    .mail__icons, .mobile__ebook {
+.mail__icons {
     display: none;
 }
+.mobile__ebook {
+    display:none;
+}    
 .mail:active, .mail:hover {
     transform: scale(1.02);
     color: #d1d1d1!important;
