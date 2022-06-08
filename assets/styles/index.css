@@ -101,22 +101,7 @@ main {
     transform: scale(1.02);
     box-shadow: 0 7px 14px rgba(117, 130, 132, 0.1), 0 3px 6px rgb(0 0 0 / 8%);
 }
-@media (max-width:819px) {
-    .mail {
-    display: none;
-}
-}@media (min-width:820px) {
-    .mail__icons {
-    display: none;
-}
-.mail:active, .mail:hover {
-    transform: scale(1.02);
-    color: #d1d1d1!important;
-}
-.icon__footer:hover {
-    transform: scale(1.06);
-}
-    .ebook {
+  .ebook {
     position: fixed;
     top:0;
     bottom:0;
@@ -134,7 +119,21 @@ main {
     height: 200px;
     margin: 0;
     padding: 0;
-    -webkit-transform: scale(1.6);
+    -webkit-transform: scale(0.5);
+@media (max-width:819px) {
+    .mail {
+    display: none;
+}
+}@media (min-width:820px) {
+    .mail__icons {
+    display: none;
+}
+.mail:active, .mail:hover {
+    transform: scale(1.02);
+    color: #d1d1d1!important;
+}
+.icon__footer:hover {
+    transform: scale(1.06);
 }
 }@media (max-width:374px) {
     .social-share__items {
