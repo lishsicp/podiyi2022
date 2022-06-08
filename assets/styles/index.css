@@ -116,6 +116,26 @@ main {
 .icon__footer:hover {
     transform: scale(1.06);
 }
+    .ebook {
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 1;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.pdf {
+    width: 340px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: scale(1.6);
+}
 }@media (max-width:374px) {
     .social-share__items {
     display: flex;
