@@ -84,8 +84,10 @@ main {
     display: flex;
     justify-content: flex-end;
 }
-.popup-link__container {
-    background: rgb(213,186,99);
+.popup-link {
+    color: #f1f1f1;
+    font-weight: 500;
+    font-size: 17px;
     background: linear-gradient(0deg, rgba(213,186,99,1) 0%, rgba(88,157,178,1) 100%);
     width: fit-content;
     border-radius: 3px;
@@ -93,19 +95,11 @@ main {
     display: flex;
     align-items: center;
 }
-.popup-link__container:hover {
-    transition: all 0.2s;
-    transform: scale(1.02);
-    box-shadow: 0 7px 14px rgba(117, 130, 132, 0.1), 0 3px 6px rgb(0 0 0 / 8%);
-}
-.popup-link {
-    color: #f1f1f1;
-    font-weight: 500;
-    font-size: 17px;
-}
 .popup-link:hover {
     transition: all 0.2s;
     color: #fff;
+    transform: scale(1.02);
+    box-shadow: 0 7px 14px rgba(117, 130, 132, 0.1), 0 3px 6px rgb(0 0 0 / 8%);
 }
 @media (max-width:819px) {
     .mail {
