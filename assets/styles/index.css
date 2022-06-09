@@ -101,11 +101,11 @@ main {
     transform: scale(1.02);
     box-shadow: 0 7px 14px rgba(117, 130, 132, 0.1), 0 3px 6px rgb(0 0 0 / 8%);
 }
-@media (max-width:767px) {
+@media (max-width:889px) {
 .desktop__ebook {
       display: none;
 }
-}@media (min-width:768px) {
+}@media (min-width:890px) {
 .mobile__ebook {
     display:none;
 }    
