@@ -31,6 +31,9 @@ main {
 .lang, .nav, .navbar-item, .pointer_link {
     font-family: 'Avenir Next', 'Josefin Sans', Montserrat, sans-serif;
 }
+.title:not(:last-child) {
+    margin-bottom: 0!important;
+}
 #link {
     visibility: hidden;
 }
