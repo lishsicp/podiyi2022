@@ -150,9 +150,6 @@ main {
 .mail__icons {
     display: none;
 }
-.mobile__ebook {
-    display:none;
-}    
 .mail:active, .mail:hover {
     transform: scale(1.02);
     color: #d1d1d1!important;
