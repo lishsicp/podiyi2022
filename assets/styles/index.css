@@ -2910,5 +2910,5 @@ main {
 }
 footer {
     max-width: 1600px!important;
-    margin-right: 0;
+    margin-right: 0!important;
 }
