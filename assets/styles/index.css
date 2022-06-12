@@ -12,7 +12,7 @@ body {
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 2000px!important;
+    max-width: 1920px!important;
 }
 
 main {
@@ -25,9 +25,6 @@ main {
 .about__subtitle, .about__title, .footer__subtitle {
     font-family: Futura, 'Avenir Next', Montserrat, 'Josefin Sans', sans-serif;
     font-weight: 700!important;
-}
-#contacts {
-    padding:0 !important;
 }
 .about__text, .mail, p {
     font-family: 'Avenir Next', Montserrat, sans-serif;
