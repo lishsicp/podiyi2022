@@ -12,7 +12,7 @@ body {
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1600px!important;
+    max-width: 2000px!important;
 }
 
 main {
@@ -2907,8 +2907,4 @@ main {
     opacity: 85%}
 .scrollup:hover {
     opacity: 100%}
-}
-footer {
-    max-width: 1600px!important;
-    margin-right: 0!important;
 }
