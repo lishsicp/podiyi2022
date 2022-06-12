@@ -130,14 +130,14 @@ main {
 .desktop__ebook {
       display: none;
 }
-.desktop_pointer {
+.pointer .desktop_pointer {
     display: none;
 }
 }@media (min-width:890px) {
 .mobile__ebook {
     display:none;
 }
-.mobile_pointer {
+.pointer .mobile_pointer {
     display:none;
 }    
 }@media (max-width:819px) {
