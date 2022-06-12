@@ -26,6 +26,9 @@ main {
     font-family: Futura, 'Avenir Next', Montserrat, 'Josefin Sans', sans-serif;
     font-weight: 700!important;
 }
+#contacts {
+    padding:0 !important;
+}
 .about__text, .mail, p {
     font-family: 'Avenir Next', Montserrat, sans-serif;
 }
