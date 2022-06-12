@@ -131,21 +131,18 @@ main {
       display: none;
 }
 .pointer .desktop_pointer {
-    display: none;
+    display: none !important;
 }
 }@media (min-width:890px) {
 .mobile__ebook {
     display:none;
 }
 .pointer .mobile_pointer {
-    display:none;
+    display:none !important;
 }    
 }@media (max-width:819px) {
 .mail {
     display: none;
-}
-.desktop__ebook {
-      display: none;
 }
 }@media (min-width:820px) {
 .mail__icons {
