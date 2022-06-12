@@ -14,6 +14,7 @@ body {
     width: 100%;
     max-width: 1600px!important;
 }
+
 main {
     background-image: linear-gradient(180deg, #589db2 0, #a8d3a8 25%, #d5ba63 50%, #d1d1d1 75%, #262627 100%);
 }
@@ -2907,3 +2908,5 @@ main {
 .scrollup:hover {
     opacity: 100%}
 }
+footer {
+    max-width: 1600px!important;
